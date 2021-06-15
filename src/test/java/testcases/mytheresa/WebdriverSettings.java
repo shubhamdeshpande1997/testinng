@@ -7,7 +7,8 @@ public class WebdriverSettings {
 	
 	public WebDriver driverSettings() {
 		//System.setProperty("webdriver.chrome.driver", "/opt/chromedriver File PATH");
-		System.setProperty("webdriver.chrome.driver","driver = webdriver.Chrome(executable_path='/home/chromedriver')"); 
+		//System.setProperty("webdriver.chrome.driver","/home/vin/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/home/chromedriver"); 
 		WebDriver driver = new ChromeDriver();
 		return driver;
 	}
