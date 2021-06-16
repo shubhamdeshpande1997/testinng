@@ -10,7 +10,7 @@ public class WebdriverSettings {
 		//System.setProperty("webdriver.chrome.driver","/home/vin/Downloads/chromedriver");
 		System.setProperty("webdriver.chrome.driver","/home/neebal/Downloads/chromedriver"); 
 		WebDriver driver = new ChromeDriver(options);
-		ChromeOptions options = new ChromeOptions();
+		//ChromeOptions options = new ChromeOptions();
                 options.addArguments("start-maximized"); // open Browser in maximized mode
                 options.addArguments("disable-infobars"); // disabling infobars
                 options.addArguments("--disable-extensions"); // disabling extensions
