@@ -10,6 +10,7 @@ public class WebdriverSettings {
 		//System.setProperty("webdriver.chrome.driver","/home/vin/Downloads/chromedriver");
 		System.setProperty("webdriver.chrome.driver","/home/neebal/Downloads/chromedriver"); 
 		WebDriver driver = new ChromeDriver();
+		driver.addArguments("--disable-dev-shm-usage");
 		return driver;
 	}
 
