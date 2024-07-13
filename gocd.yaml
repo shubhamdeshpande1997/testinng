@@ -1,0 +1,18 @@
+pipelines:
+  your_pipeline_name:
+    group: your_pipeline_group
+    materials:
+      git:
+        url: https://github.com/shubhamdeshpande1997/testinng.git
+        branch: main
+        username: shubhamdeshpande1997
+        password: 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
+    stages:
+      - stage: Build
+        jobs:
+          - job: HelloWorld
+            tasks:
+              - exec:
+                  command: echo
+                  args:
+                    - "Hello, world!"
