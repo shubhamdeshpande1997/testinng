@@ -8,8 +8,8 @@ pipelines:
         attributes:
           url: https://github.com/shubhamdeshpande1997/testinng.git
           branch: main
-          username: shubhamdeshpande1997
-          password: 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
+          username: "{{SECRET_USERNAME}}"
+          password: "{{SECRET_PASSWORD}}"
     stages:
       - name: Build
         jobs:
