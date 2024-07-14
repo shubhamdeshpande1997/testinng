@@ -1,7 +1,7 @@
 format_version: 2
 pipelines:
-  your_pipeline_name:
-    group: your_pipeline_group
+  your_pipeline_demo:
+    group: defaultGroup
     materials:
       git:
         url: https://github.com/shubhamdeshpande1997/testinng.git
