@@ -11,9 +11,9 @@ pipelines:
           username: shubhamdeshpande1997
           password: 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
     stages:
-      - stage: Build
+      - name: Build
         jobs:
-          - job: HelloWorld
+          - name: HelloWorld
             tasks:
               - exec:
                   command: echo
