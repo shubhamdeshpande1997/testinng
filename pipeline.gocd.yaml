@@ -1,5 +1,4 @@
----
-format_version: 10
+format_version: 2
 pipelines:
   your_pipeline_demo:
     group: defaultGroup
@@ -8,7 +7,6 @@ pipelines:
         type: git
         attributes:
           url: https://github.com/shubhamdeshpande1997/testinng.git
-          branch: main
     stages:
       - name: Build
         jobs:
@@ -17,4 +15,4 @@ pipelines:
               - exec:
                   command: echo
                   arguments:
-                    - Hello, world!
+                    - "Hello, world!"
