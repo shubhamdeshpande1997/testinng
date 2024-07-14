@@ -1,4 +1,4 @@
-format_version: 2
+format_version: 10
 pipelines:
   your_pipeline_demo:
     group: defaultGroup
