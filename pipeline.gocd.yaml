@@ -1,18 +1,18 @@
 format_version: 10
 pipelines:
-  your_pipeline_demo:
-    group: defaultGroup
+  test_pipeline:
+    group: testGroup
     materials:
       git_repo:
         type: git
         attributes:
-          url: https://github.com/shubhamdeshpande1997/testinng.git
+          url: https://github.com/example/repo.git
     stages:
-      - name: Build
+      - name: TestStage
         jobs:
-          - name: HelloWorld
+          - name: TestJob
             tasks:
               - exec:
                   command: echo
                   arguments:
-                    - "Hello, world!"
+                    - "Testing"
