@@ -1,3 +1,4 @@
+format_version: 2
 pipelines:
   your_pipeline_name:
     group: your_pipeline_group
