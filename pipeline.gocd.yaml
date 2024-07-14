@@ -1,4 +1,4 @@
-format_version: 10
+format_version: 2
 pipelines:
   test_pipeline:
     group: testGroup
