@@ -1,3 +1,4 @@
+---
 format_version: 10
 pipelines:
   your_pipeline_demo:
@@ -16,4 +17,4 @@ pipelines:
               - exec:
                   command: echo
                   arguments:
-                    - "Hello, world!"
+                    - Hello, world!
