@@ -3,11 +3,13 @@ pipelines:
   your_pipeline_demo:
     group: defaultGroup
     materials:
-      git:
-        url: https://github.com/shubhamdeshpande1997/testinng.git
-        branch: main
-        username: shubhamdeshpande1997
-        password: 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
+      your_material_name:
+        type: git
+        attributes:
+          url: https://github.com/shubhamdeshpande1997/testinng.git
+          branch: main
+          username: shubhamdeshpande1997
+          password: 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
     stages:
       - stage: Build
         jobs:
@@ -15,5 +17,5 @@ pipelines:
             tasks:
               - exec:
                   command: echo
-                  args:
+                  arguments:
                     - "Hello, world!"
